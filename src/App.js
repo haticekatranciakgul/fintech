@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-     <BrowserRouter basename='/'>
+     <BrowserRouter basename='/fintech'>
       <Routes>
         <Route path="/" element={<SignUpSignIn />} />
         <Route path="/dashboard" element={<Dashboard />} />
